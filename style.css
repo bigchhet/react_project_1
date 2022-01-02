@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar--title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.card--img{
+    width: 180px;
+    height: 200px;
+    left: 40px;
+    top: 100px;
+}
+
+.navbar{
+    position: fixed;
+    padding-top: 0px;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0;
+    background: #F55A5A;
+}
+
+.card{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card--location{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-bottom: -15px;
+}
+
+.card--contents{
+    margin-left: 20px;
+}
+
+.card--title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.card--dates{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card--description{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+}
